@@ -1,6 +1,105 @@
 body{
     font-family: "Mulish", sans-serif;
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) url('Images/Group 13 (1) (1).png'); 
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+header div{
+    display: flex;
+}
+header .logo{
+    margin-left: 135px;
+    padding: 30px;
+}
+header div h3 {
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+    right: 20px;
+}
+header div h3 span{
+    color: #FF5400;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 44px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+header .nav ul li span{
+    color: #FF5400;
+    font-weight: 700;
+}
+.banner img{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner {
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) url('Images/Group 13 (1) (1).png'); 
+    background-position: center; 
+}
+.banner img{
+    position: relative;
+}
+.banner-container{
+    position: relative;
+    display: grid;
+    margin-top: -500px;
+    text-align: center;
+    
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    width: 676px;
+    margin-left: 625px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -10px;
+}
+.banner-content{
+    width: 88%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background:rgba(255, 255, 255, 0.30);
+    position: relative;
+    gap: 1rem;
+    justify-content: center;
+    bottom: -35%;
+    margin: 30px;
+    border: 8px;
+}
+.box-1 .box-2 .box-3{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
 }
