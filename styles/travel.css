@@ -53,7 +53,7 @@ header .nav ul li span{
     font-weight: 700;
 }
 .banner img{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .banner {
@@ -95,11 +95,79 @@ header .nav ul li span{
     justify-content: center;
     bottom: -35%;
     margin: 30px;
-    border: 8px;
+    border: none;
 }
-.box-1 .box-2 .box-3{
+.box-1, .box-2, .box-3{
     width: 174px;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
+    border: none;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+.tour-container{
+    display: flex;
+    position: relative;
+    margin-top: 850px;
+    margin-left: 300px;
+    gap: 100px;
+}
+.tour-title-head{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;  
+}
+.text-light-gray{
+    color: rgba(19, 19, 24, 0.70);
+    width: 525px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.tour-title{
+    margin-top: -50px;
+}
+.tour-img-container img{
+    width: 100%;
+}
+.places{
+    text-align: center;
+}
+.places-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.places-content{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin: 0 auto;
+}
+.places-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.service-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media screen {
+    body{
+        padding: 20px;
+    }
 }
